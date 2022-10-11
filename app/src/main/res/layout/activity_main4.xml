@@ -1,0 +1,304 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/green"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="588dp"
+        app:srcCompat="@drawable/field_date" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="588dp"
+        app:srcCompat="@drawable/field_time" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:text="Добавить будильник"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/text"
+        android:background="@drawable/back_button"
+        android:contentDescription="@string/arrow"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="639dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/rectangle_9" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="18dp"
+        android:text="Создать будильник"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="460dp"
+        android:text="Вторник"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="534dp"
+        android:text="Повторять каждый"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="495dp"
+        android:text="Понедельник"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="423dp"
+        android:text="Среду"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="348dp"
+        android:text="Пятницу"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="387dp"
+        android:text="Четверг"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="313dp"
+        android:text="Субботу"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="273dp"
+        android:text="Воскресенье"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="490dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="343dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="308dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="268dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="455dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="418dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="382dp"
+        app:srcCompat="@drawable/rectangle12" />
+
+
+</RelativeLayout>
